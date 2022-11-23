@@ -11,7 +11,7 @@ public class Logger {
     private StringBuilder outText = new StringBuilder();
     private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private static Logger INSTANCE;
-    private String fileName = "Loger.txt";
+    private String fileName = "Logger.txt";
 
     private int writeTimout = 10000; //10 секунд
 
